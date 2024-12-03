@@ -1,0 +1,49 @@
+Feedback for BRESCIA, FRANCESCO:
+
+Part 1
+Model 1 accuracy: 57.62.
+Grade: 6.2 / 7 
+[Graded on a linear scale between 50% accuracy (7/10) and the best score in class, 62.11% (10/10), then scaled to 7 points]
+
+Feedback on architecture:
+Complex architecture, good grouping of convolutionalblocks with normalization and pooling. Respects all other requirements
+
+Feedback on data augmentation and regularization:
+Model does not overfit, dropout and normalization have been tried and motivated. Data aug is done but not motivated
+
+Feedback on training parameter tuning (learning rate, batch size,...):
+No motivation. More epochs could have potentially improved the reported accuracy
+
+Grade: 6.25 / 7 
+
+Part 2
+Model 2 validation accuracy: 65.3.
+Grade: 2.8 / 4 
+[Graded on a linear scale between 65% accuracy (7/10) and the best score in class, 85.87% (10/10), then scaled to 4 points]
+
+Feedback on architecture:
+Good choice of model + motivation, respects all other requirements. Multiple dense layers, arranged in logical manner and with dropout. Weights remain frozen.
+
+Feedback on data augmentation, regularization, tuning:
+Model does not overfit, dropout + normalizaton tried and motivated. Data augmentation same as in part 1, but not motivated. No motivation for batch size, lr or optimizer. More epochs would have potentially imrpoved reported accuracy
+
+Grade: 3.75 / 4 
+
+Part 3
+Collecting new test data
+Grade: 4.0 / 4.
+
+Model 2 test accuracy: 59.
+Grade: 4.0 / 4 
+[Pass-fail criterion: Full points if test set accuracy is greater than 50%]
+
+Part 4
+OpenML Leaderboard score: 0.5121199562.
+Grade: 2.9 / 5 
+[Graded on a linear scale between 65% accuracy (7/10) and the best score in class, 99.41% (10/10), then scaled to 5 points]
+
+Accuracy on new test set: nan.
+Error deserializing model. We tried many different TensorFlow versions and environments, and tried on different operating systems, but could not load model 2 correctly. Hence, we think the most fair solution is to drop this question from your assignment. We'll use your score from the rest of the assignment (on 35 points) and scale it to 40 points.
+
+
+Total: 34.17142857 / 40 
